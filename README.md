@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/minitest-speaks.png)](http://badge.fury.io/rb/minitest-speaks)
 minitest-speaks, Ruby gem
 ===================
 
