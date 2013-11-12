@@ -1,7 +1,7 @@
-minitest-speaks Gem
+minitest-speaks, Ruby gem
 ===================
 
-DESCRIPTION: 'minitest-speaks' is a Ruby gem which will add audio notifications to MiniTest. Currently, it will alert you with a spoken "Done" when your tests have all completed. It uses the 'speaker' gem to access the Google Translator API, which takes care of the text-to-speech part for us.
+DESCRIPTION: 'minitest-speaks' is a Ruby gem which will add audio notifications to MiniTest. Currently, it will alert you with a spoken "Done" when your tests have all completed. It uses the 'speaker' gem to access the Google Translator API, which takes care of the text-to-speech part.
 
 Installation
 ============
