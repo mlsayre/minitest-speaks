@@ -41,12 +41,13 @@ Then 'cd' to the 'lib' directory in that directory and open the file in your edi
         
 To change the spoken text, just change "Done." to "Tests completed." or whatever else you'd like it to say.
 
---------
-**Thanks** to Ryan Davis, the creator of MiniTest, for making such an easily modifiable gem. And thanks to David William, creator of the speaker gem which allows the use of the Google Translator text-to-speech API.
 
-https://github.com/seattlerb/minitest
+Thanks
+======
+...to Ryan Davis, the creator of MiniTest, for making such an awesome and easily modifiable gem. And thanks to David William, creator of the speaker gem which allows the use of the Google Translator text-to-speech API.
+
+https://github.com/seattlerb/minitest and 
 https://github.com/davidwilliam/speaker
---------
 
 To do
 =====
