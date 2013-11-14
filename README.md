@@ -8,13 +8,12 @@ DESCRIPTION: 'minitest-speaks' is a Ruby gem which will add audio notifications 
 
 Installation
 ============
-First, make sure you have MiniTest or one of its flavors installed. Then, add the 'minitest-speaks' gem to the :test group in your project's Gemfile. Since **'minitest-speaks' requires the 'speaker' gem**, make sure that is also added to the :test group if it is not already installed. Your Gemfile should look something like this:
+First, make sure you have MiniTest or one of its flavors installed. Then, add the 'minitest-speaks' gem to the :test group in your project's Gemfile. Your Gemfile should look something like this:
 
         group :test do
           gem 'minitest'
           # or whataver MiniTest flavor you like ... gem 'minitest-rails-capybara'
           gem 'minitest-speaks'
-          gem 'speaker'
         end
         
 ... and 'bundle install'. If you do not hear "Done" after successfully installing the gem(s) and running your tests, you may need to install an audio player for your machine:
@@ -42,10 +41,21 @@ Then 'cd' to the 'lib' directory in that directory and open the file in your edi
         
 To change the spoken text, just change "Done." to "Tests completed." or whatever else you'd like it to say.
 
+--------
+**Thanks** to Ryan Davis, the creator of MiniTest, for making such an easily modifiable gem. And thanks to David William, creator of the speaker gem which allows the use of the Google Translator text-to-speech API.
+
+https://github.com/seattlerb/minitest
+https://github.com/davidwilliam/speaker
+--------
+
 To do
 =====
 - Add ability to play any audio file (music, sound effects) instead of just text-to-speech audio
 - Notify user when each test is complete and what the result was
 - When tests end, notify user about the number of passes, failures, and errors
+
+Change log
+==========
+0.0.2: added runtime dependency to the 'speaker' gem to the gemspec, removing requirement to add speaker gem to the Gemfile
           
 
